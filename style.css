@@ -4,6 +4,7 @@ body {
     height: 100%;
     margin: 0px;
     font-family: Arial;
+    margin-top: 70px;
 }
 header {
     background-color: #ffafcc;
@@ -16,22 +17,20 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    left: 0;
+    z-index: 10;
 }
 
 main {
     width: 100%;
-    height: 500px;
-    margin-top: 100px;
+    height: 800px;
+    margin-top: 80px;
 }
 
 footer {
-    background-color: white;
-    color: #ffafcc;
-    height: 80px;
+    background-color: black;
+    height: 130px;
     width: 100%;
-    text-align: center;
-    padding: 20px;
 }
 
 ul {
@@ -73,6 +72,9 @@ ul a:hover {
 
 .carrossel img {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
     border-radius: 10px;
     max-width: 100%;
 }
@@ -83,35 +85,70 @@ ul a:hover {
     justify-content: center;
     gap: -10px;
     position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 button {
-    font-size: 8px;
+    font-size: 10px;
     padding: 10px;
     cursor: pointer;
     position: absolute;
-    border: none;
-    border-radius: 100px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: 0.4s;
 }
 
 #btn-anterior {
-  left: 20px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  position: absolute;
-  z-index: 10;
+  border-radius: 20px;
+  background-color: #69140e;
+  color: #fff;
 }
 
 #btn-proximo {
-  right: 20px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  position: absolute;
-  z-index: 10;
+  border-radius: 20px;
+  background-color: #69140e;
+  color: #fff;
 }
 
-button:hover {
-    background-color: #69140e;
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+}
+
+.categoria {
+    width: 150px;
+    height: 150px;
+    background: #ffafcc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rodape {
+    color: #ffafcc;
+    text-align: center;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 1000;
 }
