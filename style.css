@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-family: Arial;
     margin-top: 70px;
+    overflow-x: hidden;
 }
 header {
     background-color: #ffafcc;
@@ -200,4 +201,27 @@ button {
 
 .card-categoria:hover {
   transform: scale(1.05);
+}
+
+.faixa-carrossel {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: passar 15s linear infinite;
+}
+
+.faixa-carrossel img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+@keyframes passar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
