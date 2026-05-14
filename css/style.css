@@ -2,7 +2,7 @@ body {
      background-color: #fcd5ce;
     width: 100%;
     height: 100%;
-    margin: 0px;
+    margin: 0;
     font-family: Arial;
     margin-top: 70px;
     overflow-x: hidden;
@@ -24,8 +24,9 @@ header {
 
 main {
     width: 100%;
-    height: 800px;
+    min-height: 100vh;
     margin-top: 80px;
+    
 }
 
 footer {
@@ -103,6 +104,7 @@ button {
   border-radius: 20px;
   background-color: #69140e;
   color: #fff;
+  z-index: 9;
 }
 
 #btn-proximo {
@@ -157,7 +159,7 @@ button {
 .cards-categorias {
   display: flex;
   gap: 80px;
-  padding: 30px;
+  padding: 40px;
   overflow-x: auto;
   justify-content: center;
 }
@@ -203,25 +205,76 @@ button {
   transform: scale(1.05);
 }
 
+.carrossel-infinito {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 3px 0;
+    border-radius: 15px;
+    background: #ffafcc;
+}
+
 .faixa-carrossel {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     width: max-content;
-    animation: passar 15s linear infinite;
+    animation: deslizar 12s linear infinite;
+}
+
+.faixa-carrossel.reverso {
+    animation-direction: reverse;
 }
 
 .faixa-carrossel img {
-    width: 250px;
+    width: 200px;
     height: 150px;
     object-fit: cover;
     border-radius: 12px;
+    flex-shrink: 0;
 }
 
-@keyframes passar {
-    0% {
+@keyframes deslizar {
+    from {
         transform: translateX(0);
     }
-    100% {
+    to {
         transform: translateX(-50%);
     }
+}
+
+.historia {
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background: #ffafcc;
+    border-radius: 20px;
+}
+
+.historia-marca {
+    color: #250902;
+    font-size: 15px;
+    font-family: Times New Roman;
+    padding: 20px;
+    width: 400px;
+}
+
+h2 {
+    color: #250902;
+    font-size: 20px;
+    font-family: Times New Roman;
+    padding: 0;
+   
+}
+
+.historia img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 10px;
 }

@@ -6,9 +6,9 @@ let btnProximo = document.getElementById("btn-proximo");
 let btnAnterior = document.getElementById("btn-anterior");
 
 let imagens = [
-"assets/banner1.png",
-"assets/banner3.png",
-"assets/banner2 (2).png"
+"../assets/banner1.png",
+"../assets/banner3.png",
+"../assets/banner2 (2).png"
 ];
 
 let index = 0;
