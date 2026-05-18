@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+    background-color: #7a351c;
+    font-family: 'Georgia', serif;
+    min-height: 100vh;
+}
+
+conteiner {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dca0c2;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.topo {
+    height: 120px;
+    background-color: #ad5a9b;
+    display: flex;
+    align-items: center;
+    padding:0 35px;
+    gap: 20px;
+    color: white;
+}
+
+.voltar {
+    color: #ad5a9b;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 1;
+    line-weight: bold;
+}
+
+.topo h1 {
+    font-size: 40px;
+}
+
+.lista-doces {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 35px 20px;
+}
+
+.card-doce {
+    background-color: #c779b2;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.card-doce:hover {
+    transform: scale(1.01);
+}
+
+.card-doce img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-right: 4px;
+}
+
+.card-doce h2 {
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.botao-encomenda {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: #f2b4d0;
+    color: #6b1838;
+
+    border: 2px solid #8a2f54;
+    border-radius: 30px;
+
+    padding: 15px 25px;
+
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.botao-encomenda:hover {
+    background-color: #e79fc0;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
