@@ -23,3 +23,25 @@ function mudar(botao, delta) {
         display.innerText = valor;
     }
 }
+fetch("./dados.json")
+
+.then(response => response.json())
+.then(data => {
+
+    const produtos = document.querySelectorAll(".produto-linha")
+    produtos.forEach(item => {
+        const titulo = item.querySelector("h3")
+        const nome = titulo.textContent.trim()
+        data.forEach(produto => {
+            if(nome === produto.nome){
+                const img = document.createElement("img")
+                img.src = produto.imagem
+                img.classList.add("img-produto")
+                titulo.parentElement.prepend(img)
+            }   
+
+        })
+
+    })
+
+})

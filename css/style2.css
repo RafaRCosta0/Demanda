@@ -68,14 +68,6 @@ h2 {
     width: 70%;             
     line-height: normal;          
 }
-.stepper {
-    display: flex;
-    align-items: center;
-    background: #fff;
-    border-radius: 20px;
-    padding: 5px 10px;     
-}
-
 .produto-linha button {
     position: static !important; 
     display: inline-block;
@@ -108,15 +100,12 @@ h2 {
     border-radius: 10px;
     padding: 10px;
 }
-
-.produto-linha {
+.produto-linha{
     display: grid;
-    justify-content: space-between;
-    align-items: center;
     grid-template-columns: 1fr auto auto;
-    margin-bottom: 8px;
-    padding: 5px;
-    border-bottom: 1px dashed rgba(255,255,255,0.3);
+    align-items: center;
+    padding: 15px 20px;
+    column-gap: 40px;
 }
 h3 {
     position: relative;
@@ -128,4 +117,35 @@ h3 {
     margin: 0;
     white-space: nowrap;
     margin-left:-25%;
+}
+.produto-linha span{
+    display: grid;
+    grid-template-columns: 70px auto;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.img-produto{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.produto-linha h3{
+    margin: 0;
+}
+.ingredientes{
+    font-size: 13px;
+    color: #b6b6b6;
+    margin-top: 5px;
+    max-width: 250px;
+    line-height: 1.4;
+}
+.hero{
+    color: #5f5f5f;
+    font-size: 14px;
+    margin: 0;
+    grid-column: 2;
+    font-family: 'pacifico',cursive;
 }
