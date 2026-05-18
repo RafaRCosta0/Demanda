@@ -9,48 +9,431 @@
 <body>
     <header>
         <div class="prota">
-            <h1 class="tittle">personalizados</h1>
-                <a class="symbol" href="#"><img src="../assets/seta.png" alt="kkk" width="30"></a>
+            <h1 class="tittle"> Doces personalizados</h1>
+            <a class="symbol" href="../html/index.html"><img src="../assets/seta.png" alt="kkk" width="30"></a>
         </div>
     </header>
     <main>
         <div class="container">
             <ul>
                 <li>
-                    <a href="#" class="item-link">
+                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('docinhos')">
                         <img src="../assets/img1.png" alt="kkk">
-                        <h2>doces</h2>
+                        <h2>Docinhos tradicionais</h2>
                     </a>
+                    <div id="docinhos" class="lista-produtos" style="display: none;">
+                        <div class="produto-linha">
+                            <span><h3>Brigadeiro</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Beijinho</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Cajuzinho</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Casadinho</h3></span>
+                            <P>UN</P>
+                            <div class="stepper">
+                                <button onclick ="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        
+                        <div class="produto-linha">
+                            <span><h3>Olho de sogra</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this,-1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Bicho de pé</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Doce de amendoim</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Morango do amor</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="item-link">
+                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Celebrações')">
                         <img src="../assets/img3.png" alt="kkk">
-                        <h2>doces de casameto</h2>
+                        <h2>Celebrações Especiais</h2>
                     </a>
+                    <div id="Celebrações" class="lista-produtos" style="display: none;">
+                        <div class="produto-linha">
+                            <span><h3>Cupcakes decorados</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>mini Bolos</h3></span>
+                            <p>UN</p>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>naked Cake</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Red velvet</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>cheesecake</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Torta mousse</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Macarons</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Brownie gourmet</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="item-link">
+                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Bolos Festivos')">
                         <img src="../assets/img2.png" alt="kkk">
-                        <h2>Bolos Sabores</h2>
+                        <h2>Bolos Festivos</h2>
                     </a>
+                    <div id="Bolos Festivos" class="lista-produtos" style="display: none;">
+                         <div class="produto-linha">
+                            <span><h3>Bolo de aniversário</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo de casamento</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo tematico</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo infantil</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0 UN</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo de andares</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo espatulado</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo drip cake</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                         <div class="produto-linha">
+                            <span><h3>Bolo floral</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="item-link">
+                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Delicias')">
                         <img src="../assets/img4.png" alt="kkk">
-                        <h2>Sobremesas</h2>
+                        <h2>Delicias de vitrine</h2>
                     </a>
+                    <div id="Delicias" class="lista-produtos" style="display: none;">
+                        <div class="produto-linha">
+                            <span><h3>Donuts</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span><h3>Cookis recheado</h3></span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Cinnamon roll</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Croissant doce</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Fatias de bolo</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Copo da felicidade</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Pavê</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Tortinhas doces</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="item-link">
+                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Bombons')">
                         <img src="../assets/img6.png" alt="kkk">
-                        <h2>Chocolates</h2>
+                        <h2>Bombons & Trufas</h2>
                     </a>
+                    <div id="Bombons" class="lista-produtos" style="display: none;">
+                        <div class="produto-linha">
+                            <span>Trufa de chocolate</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Bombom de morango</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Bombom de uva</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Bombom de coco</span>
+                            <div class="stepper">
+                                <button onclick="mudar(this, -1)">-</button>
+                                <span class="val">0</span>
+                                <button onclick="mudar(this, 1)">+</button>
+                            </div>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Trufa de maracujá</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Bombom crocante</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Cone trufado</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Bombom de pistache</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                    </div>
                 </li>
                 <li>
-                    <a href="#" class="item-link">
+                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Festas')">
                         <img src="../assets/img5.png" alt="kkk">
-                        <h2>personalizados</h2>
+                        <h2>Festas Tema</h2>
                     </a>
+                    <div id="Festas" class="lista-produtos" style="display: none;">
+                        <div class="produto-linha">
+                            <span>Doces tradicionais</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Cupcakes temáticos</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Pirulitos decorados</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Maçã do amor gourmet</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Cake pops</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Bento cake</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Mini sobremesas</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>
+                        <div class="produto-linha">
+                            <span>Kits festa personalizados</span>
+                            <button onclick="mudar(this, -1)">-</button>
+                            <span class="val">0</span>
+                            <button onclick="mudar(this, 1)">+</button>
+                        </div>    
+                    </div>
                 </li>
             </ul>
         </div>
@@ -60,5 +443,6 @@
                 <img src="../assets/buttonwpp.png" alt="#" width="80">
             </button>
         </div>
+        <script src="../Js/search.js"></script>
 </body>
 </html>
