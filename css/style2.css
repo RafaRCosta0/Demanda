@@ -1,153 +1,68 @@
-html {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-body {
-    margin: 0;
-    padding: 0;
+
+body{
     background-color: #fcd5ce;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: forum;
+    overflow-x: hidden;
 }
-header {
+
+header{
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    background-color: #ffafcc;
-    color: white;
-    text-transform: uppercase;
+    opacity: 0;
     width: 100%;
-    padding: 25px;
+    height: 90px;
+    background-color: #f191ac;
+    color: white;
     display: flex;
     align-items: center;
     z-index: 1000;
+    transform: translateY(40px);
+    text-transform: uppercase;
+    padding: 0 25px;
+    animation: fadeInUp 0.5s ease-in-out forwards;
 }
+
 .prota{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .tittle{
     margin: 0;
 }
-
-.symbol{
-    position: absolute;
-    margin-left: -50px;
+.page-content{
+    margin:0;
+    left: 0;
+    opacity: 0;
+    padding-top: 110px;
+    transform: translateY(40px);
+    animation: fadeInUp 0.5s ease-in-out forwards;
 }
-ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+.container{
+    width: 100%;
+    padding: 20px;
+}
+
+.container ul{
     list-style: none;
-    margin-top: 8%;
-
-}
-ul a {
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-ul a:hover {
-    background-color:pink;
-    transition: 0.2s;
-}
-.item-link {
-    display: flex;
-    align-items: center;
-    background-color: rgb(181, 97, 111);
-    gap: 15px;
-    width: 95%; 
-    margin-bottom: 10px;      
-}
-h2 {
-     display: block;
-    width: 70%;             
-    line-height: normal;          
-}
-.produto-linha button {
-    position: static !important; 
-    display: inline-block;
-    width: auto;
-    height: auto;
-    opacity: 1;
-    background: none;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-    padding: 0 8px;
-    color: #b86b77;
-}
-.whats button {
-    position: fixed;
-    display: flex;
-    flex-direction: row-reverse;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    opacity: 0.8;
-    height: 80px; 
-    border-radius: 50px;
-    background-color: rgb(247, 176, 188);
-}
-.lista-produtos {
-    width: 95%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.15) !important;
-    border-radius: 10px;
-    padding: 10px;
-}
-.produto-linha{
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    align-items: center;
-    padding: 15px 20px;
-    column-gap: 40px;
-}
-h3 {
-    position: relative;
-    color: brown;
-    text-transform: uppercase;
-    font-family: 'pacifico',cursive;
-}
- p{
-    margin: 0;
-    white-space: nowrap;
-    margin-left:-25%;
-}
-.produto-linha span{
-    display: grid;
-    grid-template-columns: 70px auto;
-    align-items: center;
-    column-gap: 15px;
 }
 
-.img-produto{
-    width: 55px;
-    height: 55px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.produto-linha h3{
-    margin: 0;
-}
-.ingredientes{
-    font-size: 13px;
-    color: #b6b6b6;
-    margin-top: 5px;
-    max-width: 250px;
-    line-height: 1.4;
-}
-.hero{
-    color: #5f5f5f;
-    font-size: 14px;
-    margin: 0;
-    grid-column: 2;
-    font-family: 'pacifico',cursive;
+.container ul li{
+    margin-bottom: 20px;
 }
 .whatsapp {
     position: fixed;
@@ -164,4 +79,101 @@ h3 {
     font-size: 30px;
     text-decoration: none;
     z-index: 1000;
+}
+.container ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    gap: 12px;
+    padding: 20px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.container ul li h3{
+    color: #f191ac;
+    text-transform: capitalize;
+    font-size: 30px;
+ 
+}
+.container ul li p{
+    color: white;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.container ul li a:hover h3{
+    color: #f191ac;
+}
+
+.container ul li a:hover p{
+    color: white;
+}
+
+@media (max-width: 768px){
+
+    header{
+        height: 80px;
+        padding: 0 15px;
+    }
+
+    .prota{
+        margin-left: 35px;
+    }
+
+    .tittle{
+        font-size: 1.3rem;
+    }
+
+    .container{
+        padding: 15px;
+    }
+
+    .container ul li a{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border-radius: 20px;
+    width: fit-content;
+    transition: all 0.4s ease;
+}
+
+.container ul li a:hover h3{
+    color: #f191ac;
+}
+
+    .container ul li h3{
+        font-size: 1.3rem;
+    }
+
+    .container ul li p{
+        font-size: 1rem;
+    }
+    .container ul li :hover p {
+        color: white;
+    }
+    
+}
+a:hover
+    {
+    background-color: #f3cdc5;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+    }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform:translateY(0)
+    }
+}
+.produto-img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: 0.3s;
+    flex-shrink: 0;
 }

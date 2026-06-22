@@ -10,256 +10,79 @@
     <header>
         <div class="prota">
             <h1 class="tittle"> Doces personalizados</h1>
-            <a class="symbol" href="../html/index.html"><img src="../assets/seta.png" alt="kkk" width="30"></a>
         </div>
     </header>
-    <main>
-        <div class="container">
-            <ul>
-                <li>
-                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('docinhos')">
-                        <img src="../assets/img1.png" alt="kkk">
-                        <h2>Docinhos tradicionais</h2>
-                    </a>
-                    <div id="docinhos" class="lista-produtos" style="display: none;">
-                        <div class="produto-linha">
-                            <span><h3>Brigadeiro</h3><p class="hero">Leite condensado,achocolatado em pó,manteiga ou margarida,granulado de chocolate.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Beijinho</h3><p class="hero">Leite condensado,manteiga ou margaarina e coco ralado.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Cajuzinho</h3><p class="hero">Amendoim triturado,Leite condensado,Chocolate em pó,Açúcar.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Casadinho</h3><p class="hero">Brigadeiro preto,Brigadeiro branco.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        
-                        <div class="produto-linha">
-                            <span><h3>Olho de sogra</h3><p class="hero">Leite condensado,Leite ninho,Creme de leite.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bicho de pé</h3><p class="hero">Leite condensado,Gelatina de morango,Manteiga ou Margarina.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Doce de amendoim</h3><p class="hero">Amendoim torrado,Leite condensado,Açúcar.</p></span>
-                            <h3>R$ 3,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Morango do amor</h3><p class="hero">Açúcar derretido,Corante vermelho,Creme de leite ninho,Morangos frescos.</p></span>
-                            <h3>R$ 8,50</h3>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Celebrações')">
-                        <img src="../assets/img3.png" alt="kkk">
-                        <h2>Celebrações Especiais</h2>
-                    </a>
-                    <div id="Celebrações" class="lista-produtos" style="display: none;">
-                        <div class="produto-linha">
-                            <span><h3>Cupcakes decorados</h3><p class="hero">Massa de baunilha,chantilly,corante,congeitos.</p></span>
-                            <h3>R$ 10,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>mini Bolos</h3><p class="hero">Massa de bolo,recheio,cobertura.</p></span>
-                            <h3>R$ 10,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>naked Cake</h3><p class="hero">Massa branca,chantilly,morangos.</p></span>
-                            <h3>R$ 80,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Red velvet</h3><p class="hero">Massa red velvet,cream cheese.</p></span>
-                            <h3>R$ 95,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>cheesecake</h3><p class="hero">Cream cheese,Bolacha triturada,manteiga,geleia.</p></span>
-                            <h3>R$ 90,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Torta mousse</h3><p class="hero">Chocolate,creme de leite,claras.</p></span>
-                            <h3>R$ 70,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Macarons</h3><p class="hero">Farinha de amêndoas,Açúcar,claras.</p></span>
-                            <h3>R$ 6,00(Cada)</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Brownie gourmet</h3><p class="hero">Chocolate meio amargo,Manteiga ou margarina,Açúcar,Farinha de trigo</p></span>
-                            <h3>R$ 12,00</h3>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Bolos Festivos')">
-                        <img src="../assets/img2.png" alt="kkk">
-                        <h2>Bolos Festivos</h2>
-                    </a>
-                    <div id="Bolos Festivos" class="lista-produtos" style="display: none;">
-                         <div class="produto-linha">
-                            <span><h3>Bolo de aniversário</h3><p class="hero">Massa de bolo,recheio,cobertura.</p></span>
-                            <h3>R$ 90,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo de casamento</h3><p class="hero">Massa branca,chantinho,Flores decorativas.</p></span>
-                            <h3>R$ 250,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo tematico</h3><p class="hero">Pasta americana,Massa de bolo,Recheio.</p></span>
-                            <h3>R$ 150,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo infantil</h3><p class="hero">Chocolate,Cinfeitos,Chantilly.</p></span>
-                            <h3>R$ 120,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo de andares</h3><p class="hero">Massa estruturada,Recheio firme,Cobertura.</p></span>
-                            <h3>R$ 300,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo espatulado</h3><p class="hero">Chantininho,Corantes.</p></span>
-                            <h3>R$ 100,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo drip cake</h3><p class="hero">Ganacue,Chantilly.</p></span>
-                            <h3>R$ 130,00</h3>
-                        </div>
-                         <div class="produto-linha">
-                            <span><h3>Bolo floral</h3><p class="hero">Buttercream,Flores de açúcar.</p></span>
-                            <h3>R$ 160,00</h3>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Delicias')">
-                        <img src="../assets/img4.png" alt="kkk">
-                        <h2>Delicias de vitrine</h2>
-                    </a>
-                    <div id="Delicias" class="lista-produtos" style="display: none;">
-                        <div class="produto-linha">
-                            <span><h3>Donuts</h3><p class="hero">Farinha de trigo,Leite,Açúcar,Cobertura doce</p></span>
-                            <h3>R$ 8,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Cookies recheado</h3><p class="hero">Massa de cookie,Chocolate,Nutella.</p></span>
-                            <h3>R$ 10,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Cinnamon roll</h3><p class="hero">Massa doce,Canela,Açúcar mascavo.</p></span>
-                            <h3>R$ 12,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Croissant doce</h3><p class="hero">Massa folhada,chocolate ou creme.</p></span>
-                            <h3>R$ 14,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Fatias de Bolo</h3><p class="hero">Massa recheada,Cobertura.</p></span>
-                            <h3>R$ 15,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Copo da felicidade</h3><p class="hero">Brigadeiro,Morango,Chantilly.</p></span>
-                            <h3>R$ 18,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Pavê</h3><p class="hero">Bolacha champagne,Creme,Chocolate.</p></span>
-                            <h3>R$ 20,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Tortinhas doces</h3><p class="hero">Massa amanteigada,Creme,Frutas.</p></span>
-                            <h3>R$ 14,00</h3>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Bombons')">
-                        <img src="../assets/img6.png" alt="kkk">
-                        <h2>Bombons & Trufas</h2>
-                    </a>
-                    <div id="Bombons" class="lista-produtos" style="display: none;">
-                        <div class="produto-linha">
-                            <span><h3>Trufa de chocolate</h3><p class="hero">Chocolate nobre,Creme de Leite.</p></span>
-                            <h3>R$ 5,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bombom de morango</h3><p class="hero">Morango,Brigadeiro branco,Chocolate.</p></span>
-                            <h3>R$ 6,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bombom de uva</h3><p class="hero">Uva,Brigadeiro branco,Chocolate.</p></span>
-                            <h3>R$ 6,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bombom de coco</h3><p class="hero">Coco ralado,Leite condensado,Chocolate.</p></span>
-                            <h3>R$ 5,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Trufa de maracujá</h3><p class="hero">Chocolate branco,Creme de leite,Maracujá.</p></span>
-                            <h3>R$ 6,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bombom crocante</h3><p class="hero">Chocolante,Castanhas ou flocos crocantes.</p></span>
-                            <h3>R$ 5,50</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Cone trufado</h3><p class="hero">Casquinha de sorvete,Brigadeiro,Chocolate.</p></span>
-                            <h3>R$ 12,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bombom de pistache</h3></span>
-                            <h3>R$ 8,00</h3>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="javascript:void(0)" class="item-link" onclick="toggleLista('Festas')">
-                        <img src="../assets/img5.png" alt="kkk">
-                        <h2>Festas Temáticas</h2>
-                    </a>
-                    <div id="Festas" class="lista-produtos" style="display: none;">
-                        <div class="produto-linha">
-                            <span><h3>Doces tradicionais</h3><p class="hero">Pasta americana,Brigadeiro,Corantes.</p></span>
-                            <h3>R$ 6,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Cupcakes temáticos</h3><p class="hero">Massa doce,Cantilly colorido.</p></span>
-                            <h3>R$ 12,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Pirulitos decorados</h3><p class="hero">Chocolate,Confeitos.</p></span>
-                            <h3>R$ 7,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Maçã do amor gourmet</h3><p class="hero">Maçã,Chocolate,Caramelo.</p></span>
-                            <h3>R$ 18,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Cake pops</h3><p class="hero">Massa de bolo,Chocolate.</p></span>
-                            <h3>R$ 8,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Bento cake</h3><p class="hero">Massa de bolo,Chantininho.</p></span>
-                            <h3>R$ 45,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Mini sobremesas</h3><p class="hero">Cremes variados,Frutas,Chocolate.</p></span>
-                            <h3>R$ 15,00</h3>
-                        </div>
-                        <div class="produto-linha">
-                            <span><h3>Kits festa personalizados</h3><p class="hero">Docinhos Variados,Mini bolos,Embalagens decorativas.</p></span>
-                            <h3>R$ 120,00</h3>
-                        </div>    
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </main>
+    <diV class="page-content">
+        <main>
+            <div class="container">
+        <ul>
+            <li>
+            <a href="#">
+                <img src="" alt="" class="produto-img">
+                <h3>quarteto de brigadeiros:</h3>
+                <p>4 brigadeiros a sua escolha.</p>
+            </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>octeto brigadeiros:</h3>
+                    <p>8 brigadeiros a sua escolha.</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>duo love:</h3>
+                    <p>2 corações de chocolate reacheados(consultar recheios disponíveis).</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>ovo de colher:</h3>
+                    <p>casquinha de chocolate crocante com recheio da sua preferência (consultar recheio disponíveis).</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../assets/" alt="" class="produto-img">
+                    <h3>brownie tradicional:</h3>
+                    <p>1 unidade de brownie com cobertura de sua preferência (consultar coberturas disponíveis).</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>bento cake</h3>
+                    <p>mini bolo personalizado, perfeito para presentear ou celebrar momentos especiais,com massa fofinha e recheio á sua escoha.</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>cesta de café da manha</h3>
+                    <p>uma seleção especial de delícias para começar o dia com sabor e carinho(produtos a sua escolha).</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>morango do amor</h3>
+                    <p>caramelo e brigadeiro de leite ninho envoltos em morangos selecionados.</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="" alt="" class="produto-img">
+                    <h3>caixa degustação de doces finos</h3>
+                    <p>a partir de 16 unidades  doces premium para degustação e seleção para momentos especiais  (Caixa degustação cobrada, favor Consultar valores) </p>
+                </a>
+            </li>
+        </ul>
+            </div>
+        </main>
+    </diV>
            <div>
                 <a href="https://wa.me/5545999999999?text=Quero%20fazer%20meu%20pedido" class="whatsapp" target="_blank">💬</a>
             </div>
