@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <header>
+<body id="topo">
+    <header id="topo">
         <div class="container">
         <img src="../assets/logo.png" class="logo" >
           <ul>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="#topo">Inicio</a></li>
             <li><a href="https://wa.me/5545998112519?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!">Faça sua encomenda</a></li>
-            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#contato">Sobre Nós</a></li>
             <li> <a href="#">Contato</a></li>
           </ul>
           </div>
@@ -22,26 +27,27 @@
         <section class="carrossel">
 
             <button id="btn-anterior"><</button>
-            <img id="imagem-carrossel" src="../assets/banner1.png">
+            <img id="imagem-carrossel" src="../assets/img60.jpeg">
             <button id="btn-proximo">></button>
 
         </section>
 
+        <p class="titulo-secao">Catálogo</p>
         <section class="cards-categorias">
              
             <a href="doces.html" class="card-categoria">
                 <img src="../assets/doce.png" alt="Doces">
-                <span>Doces</span>
+                <p class="titulo-card">Doces</p>
             </a>
 
              <a href="indexbolos.html" class="card-categoria">
                 <img src="../assets/bolo.png" alt="Bolos">
-                <span>Bolos</span>
+                <p class="titulo-card">Bolos</p>
             </a>
 
              <a href="personalizados.html" class="card-categoria">
                 <img src="../assets/perso.png" alt="Doces personalizados">
-                <span>Doces Personalizados</span>
+                <p class="titulo-card">Doces Personalizados</p>
             </a>
 
         </section>
@@ -79,15 +85,76 @@
             </div>
         </section>
 
-        <div class="historia">
-            <img src="../assets/historia.jpg" alt="">
-            <h2>Como Tudo Começou 🍰</h2>
-            <p class="historia-marca">Em 2020, em meio a um período desafiador, nasceu a AMR Doces. O nome é uma homenagem às iniciais dos fundadores, Ana, Marcos e Rafael, que decidiram transformar sua paixão por confeitaria em um negócio. Com receitas tradicionais e um toque de criatividade, a AMR Doces rapidamente conquistou o paladar dos clientes locais, tornando-se sinônimo de qualidade e sabor irresistível.</p>
+        <section class="historia">
+
+        <div class="historia-marca">
+            <h2>Como Tudo Começou</h2>
+            <p >
+                Amanda sempre gostou de cozinhar, mas foi aos 19 anos que começou a fazer bolos para complementar sua renda. No início, vendia apenas para familiares, amigos e colegas de trabalho.
+
+Com o aumento dos pedidos, passou a estudar novas técnicas, aperfeiçoar suas receitas e investir aos poucos em melhores equipamentos. Apesar dos desafios e erros pelo caminho, sua dedicação conquistou clientes fiéis.
+
+Após alguns anos trabalhando em casa, Amanda decidiu transformar seu sonho em realidade. Com planejamento e muito esforço, abriu sua própria confeitaria, levando para cada bolo a paixão e o carinho que marcaram o início de sua trajetória. 🍰✨
+            </p>
         </div>
 
+        <div class="historia-imagem">
+            <img src="../assets/bolo historia.jpeg" alt="historia-marca">
+        </div>
+
+        </section>
+
+        <section class="informs">
+            <div class="informs-item1">
+                <h2>Endereço</h2>
+                <p>Rua Monsenhor Guilherme, 648 - Jd Panorama, Foz do Iguaçu - PR</p>
+            </div>
+
+            <div class="informs-item2">
+                <h2>Pedidos</h2>
+                <p>Pedidos devem ser feitos com <br>
+                 no mínimo de 3 dias de antecedência <br><br>
+                 Sinal: 50% do valor total na confirmação do pedido
+                
+                </p>
+            </div>
+
+            <div class="informs-item3">
+                <h2>Formas de Pagamento</h2>
+                <p>Cartão de Crédito, Débito, Pix e Dinheiro</p>
+            </div>
+        </section>
+
     </main>
-    <footer>
+    <footer id="contato">
         <p class="rodape">© 2026 AMR Doces. Todos os direitos reservados.</p>
+
+        <div class="redes-sociais">
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+        </div>
+
+         <div class="contato">
+                <h2>Contato</h2>
+                <p>(45) 99811-2519</p>
+                <p>amrdocescaseiros@gmail.com</p>
+            </div>
+
+
     </footer>
     <script src="../js/script.js"></script>
 

@@ -1,14 +1,14 @@
 body {
-    background-color: #fcd5ce;
+    background-color: #fedcd9;
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: Arial;
+    font-family: forum;
     margin-top: 70px;
     overflow-x: hidden;
 }
 header {
-    background-color: #ffafcc;
+    background-color: #f191ac;
     width: 100%;
     height: 80px;
     margin: 0;
@@ -20,6 +20,7 @@ header {
     width: 100%;
     left: 0;
     z-index: 10;
+    opacity: 0.9;
 }
 
 main {
@@ -30,8 +31,8 @@ main {
 }
 
 footer {
-    background-color: black;
-    height: 130px;
+    background-color: #f191ac;
+    height: 160px;
     width: 100%;
 }
 
@@ -39,21 +40,26 @@ ul {
     display: flex;
     list-style: none;
     gap: 30px;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 1;
+    max-width: 100%;
 }
 
 ul a {
-    background-color: #69140e;
+    background-color: #f6a6bb;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 10px;
     border-radius: 30px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 ul a:hover {
-    background-color: #250902;
+    background-color: white;
+    color: #f191ac;
 }
 
 .container {
@@ -68,13 +74,13 @@ ul a:hover {
 
 
 .logo {
-    height: 50px;
+    height: 60px;
     display: flex;
 }
 
 .carrossel img {
     width: 100%;
-    height: 400px;
+    height: auto;
     object-fit: cover;
     display: block;
     border-radius: 10px;
@@ -85,10 +91,10 @@ ul a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: -10px;
     position: relative;
     width: 100%;
     overflow: hidden;
+    
 }
 button {
     font-size: 10px;
@@ -102,7 +108,7 @@ button {
   top: 50%;
   transform: translateY(-50%);
   border-radius: 20px;
-  background-color: #69140e;
+  background-color: #f191ac;
   color: #fff;
   z-index: 9;
 }
@@ -112,7 +118,7 @@ button {
   top: 50%;
   transform: translateY(-50%);
   border-radius: 20px;
-  background-color: #69140e;
+  background-color: #f191ac;
   color: #fff;
 }
 
@@ -135,8 +141,29 @@ button {
 }
 
 .rodape {
-    color: #ffafcc;
-    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais {
+    display: flex;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: 0.3s;
+    list-style: none;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.redes-sociais a {
+    color: white;
+}
+
+.redes-sociais a:hover {
+    color: #ffbad4;
+    transform: scale(1.2);
 }
 
 .whatsapp {
@@ -162,18 +189,20 @@ button {
   padding: 40px;
   overflow-x: auto;
   justify-content: center;
+  max-width: 100%;
 }
 
 .card-categoria {
   position: relative;
-  min-width: 180px;
+  width: 100%;
+  max-width: 100%;
   height: 130px;
   border-radius: 10px;
   overflow: hidden;
-  border: 2px solid #69140e;
+  border: 2px solid #f191ac;
   box-shadow: 0 0 6px #555;
   text-decoration: none;
-  color: #69140e;
+  color: #f191ac;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,15 +211,17 @@ button {
 .card-categoria img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
 
-.card-categoria span {
+.titulo-card {
   position: absolute;
-  z-index: 2;
   font-size: 22px;
   font-weight: bold;
-  text-align: center;
+  background-color:#f191ac;
+  padding: 5px 67px;
+  color: white;
 }
 
 .card-categoria::before {
@@ -207,12 +238,12 @@ button {
 
 .carrossel-infinito {
     width: 70%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0px auto;
     overflow: hidden;
     padding: 3px 0;
     border-radius: 15px;
-    background: #ffafcc;
+    background: #fedcd9;
 }
 
 .faixa-carrossel {
@@ -230,7 +261,7 @@ button {
     width: 200px;
     height: 150px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 10px;
     flex-shrink: 0;
 }
 
@@ -245,36 +276,122 @@ button {
 
 .historia {
     display: flex;
-    width: 60%;
-    margin: 50px auto;
-    gap: 10px;
-    padding: 5px;
     align-items: center;
     justify-content: center;
-    background: #ffafcc;
+    gap: 40px;
+    width: 80%;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f4bbc9;
+    border: 2px solid #f191ac;
     border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .historia-marca {
-    color: #250902;
-    font-size: 15px;
-    font-family: Times New Roman;
-    padding: 20px;
-    width: 400px;
+    flex: 1;
 }
 
-h2 {
-    color: #250902;
-    font-size: 20px;
-    font-family: Times New Roman;
-    padding: 0;
-   
+.historia-marca h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.historia-marca p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 .historia img {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 120px;
     object-fit: cover;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #cf8ba3;
+}
+
+.contato {
+    color: white;
+    font-size: 10px;
+    gap: 5px;
+    text-align: center;
+}
+
+.contato h2 {
+    color: white;
+    text-align: center;
+    
+}
+
+.informs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffdae4;
+    border: 2px solid #f191ac;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.informs-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+    color: white;
+    border: #f2a1b0 10px solid;
+    border-radius: 10px;
+}
+
+.informs-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+    color: white;
+    border: #f2a1b0 10px solid;
+    border-radius: 10px;
+}
+
+.informs-item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+    color: white;
+    border: #f2a1b0 10px solid;
+    border-radius: 10px;
+}
+
+.informs h2 {
+    color: #f7b2ce;
+    font-size: 18px;
+}
+
+.informs p {
+    color: #f7b2ce;
+    font-size: 14px;
+    text-align: center;
+}
+
+.titulo-secao {
+    color: #f191ac;
+    background-color: #ffdae4;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    
 }

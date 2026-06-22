@@ -1,196 +1,29 @@
 [
     {
-        "nome":"Brigadeiro",
-        "imagem":"https://static.itdg.com.br/images/640-400/a373f494abb2c3360b9966f5abe130e2/brigadeiro-.jpg"
+        "imagem":"../assets/quarteto.png"
     },
     {
-        "nome":"Beijinho",
-        "imagem":"https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2021/02/21c4e040-beijinho-_-tm-cristina-martins-_-baixa-8.jpg"
+        "imagem":"../assets/octeto.png"
     },
     {
-        "nome":"Cajuzinho",
-        "imagem":"https://cdn0.tudoreceitas.com/pt/posts/1/0/2/cajuzinho_para_festa_201_orig.jpg"
+        "imagem":"../assets/Duolove.jpeg"
     },
     {
-        "nome":"Casadinho",
-        "imagem":"https://i.ytimg.com/vi/g2kOSOTJtKM/maxresdefault.jpg"
+        "imagem":"../assets/ovocolher.jpeg"
     },
     {
-        "nome":"Olho de sogra",
-        "imagem":"https://cdn0.umcomo.com.br/pt/posts/4/6/3/como_fazer_olho_de_sogra_27364_600.jpg"
+        "imagem":"../assets/brownie.jpeg"
     },
     {
-        "nome":"Bicho de pé",
-        "imagem":"https://i.ytimg.com/vi/4kxCUWXbJ1M/maxresdefault.jpg"
-
+        "imagem":"../assets/Bentocake.jpeg"
     },
     {
-        "nome":"Doce de amendoim",
-        "imagem":"https://s2-receitas.glbimg.com/qBDhvVao6D8lYO4t-pQt2uBUqXM=/0x0:1200x791/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/X/p/wdPp1vRJWRmaFNJ3H98A/doce-de-amendoim-de-corte.jpg"
+        "imagem":"../assets/cesta.jpeg"
     },
     {
-        "nome":"Morango do amor",
-        "imagem":"https://kitfestabh.com.br/wp-content/uploads/2025/10/receita-de-morango-do-amor3.webp"
+        "imagem":"../assets/morango.jpeg"
     },
     {
-        "nome":"Cupcakes decorados",
-        "imagem":"https://guiadacozinha.com.br/wp-content/uploads/2020/01/cupcake-destaque.jpg"
-
-    },
-    {
-        "nome":"mini Bolos",
-        "imagem":"https://dikadanaka.com.br/wp-content/uploads/2021/03/mini-bolo-capa.jpg"
-    },
-    {
-        "nome":"naked Cake",
-        "imagem":"https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2020/10/a21f824b-naked-cake-_-tm-kite-festa_-faca-venda-_-karen-silva-_-alta-1.jpg"
-    },
-    {
-        "nome":"Red velvet",
-        "imagem":"https://www.simplytrinicooking.com/wp-content/uploads/red-velvet-cake.jpg"
-    },
-    {
-        "nome":"cheesecake",
-        "imagem":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmINscfm3x1FFohrWKigDr8SdxfbVMmpRkhK0N1Jq5h-I7_z4fshn-p-OO0-virxx-zP6w3z46GIwA4fbssvb5b_V5VvPytLYjgX3PZK3KB6AWkd2zxcLoE-XlDr8J7lACXf-H0eZDzndWiZ8eTKCYMnbqFRqiDOVGJ2fnTBHMqN2Sct65vQIXo0CK/s2000/cheesecake-de-ricota-com-chocolate.jpg"
-    },
-    {
-        "nome":"Torta mousse",
-        "imagem":"https://bakeandcakegourmet.com.br/uploads/site/receitas/torta-mousse-napolitana-anwqw7h2.jpg"
-    },
-    {
-        "nome":"Macarons",
-        "imagem":"https://guiadacozinha.com.br/wp-content/uploads/2021/08/macaron-768x619.jpg"
-    },
-    {
-        "nome":"Brownie gourmet",
-        "imagem":"https://bakeandcakegourmet.com.br/uploads/site/receitas/brownie-a61d7xl1.jpg"
-    },
-    {
-        "nome":"Bolo de aniversário",
-        "imagem":"https://s2-receitas.glbimg.com/4owdis7yLZZwFng7WD2-tqd4ADU=/1336x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2025/Z/3/2XuoogSe6ZtsVtlQaV7A/bolo-de-aniversario.jpg"
-    },
-    {
-        "nome":"Bolo de casamento",
-        "imagem":"https://lejour.com.br/wp-content/uploads/2023/08/bolo-de-casamento-civil1.jpg"
-    },
-    {
-        "nome":"Bolo tematico",
-        "imagem":"https://a-static.mlcdn.com.br/%7Bw%7Dx%7Bh%7D/topo-de-bolo-bolo-fofo-11-personalizado-com-nome-e-idade-lulu-mali-designers/lulumalidesigner/topo0000342/747de55baf4cea364f8f7cba38da5ca7.jpeg"
-    },
-    {
-        "nome":"Bolo infantil",
-        "imagem":"https://adventree.com.br/wp-content/uploads/2025/07/15838734451.jpg"
-    },
-    {
-        "nome":"Bolo de andares",
-        "imagem":"https://casaeconstrucao.org/wp-content/uploads/2024/11/30-bolo-casamento-3-andares-@delicias_jessy_.jpg"
-    },
-    {
-        "nome":"Bolo espatulado",
-        "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsPzouNmIpzQoz9pUKv773jNxSCz8RlOaz_Q&s"
-    },
-    {
-        "nome":"Bolo drip cake",
-        "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrC7kDjOk7y4w1fV0bULN2tqkgdJ4Xuft16A&s"
-    },
-    {
-        "nome":"Bolo floral",
-        "imagem":"https://i.pinimg.com/736x/34/19/f4/3419f48578aaec203bca6addd515403b.jpg"
-    },
-    {
-        "nome":"Donuts",
-        "imagem":"https://i.pinimg.com/736x/ce/c0/a9/cec0a9788d0e997e27414f6b1ad1b305.jpg"
-    },
-    {
-        "nome":"Cookies recheado",
-        "imagem":"https://www.oetker.com.br/assets/recipes/assets/81bfeaece6d54df78f1904c06c9cf33c/1272x764/sanduiche-cookiejpeg.webp"
-    },
-    {
-        "nome":"Cinnamon roll",
-        "imagem":"https://mccormick.widen.net/content/megysgsour/jpeg/Holiday_Cinnamon-Rolls_1376x774.jpeg"
-    },
-    {
-        "nome":"Croissant doce",
-        "imagem":"https://i.pinimg.com/736x/a1/b8/7e/a1b87eb39ec5e722e047feb6ed275881.jpg"
-    },
-    {
-        "nome":"Fatias de Bolo",
-        "imagem":"https://confeitariaiceland.com.br/wp-content/uploads/2024/06/BoloRedVelvet3.jpg"
-    },
-    {
-        "nome":"Copo da felicidade",
-        "imagem":"https://www.lamoussedoceria.com.br/wp-content/uploads/sites/9/Copo-da-felicidade-de-Ferrero-Rocher-10.webp"
-    },
-    {
-        "nome":"Pavê",
-        "imagem":"https://static.itdg.com.br/images/1200-630/543ffeb02eaaa8dfe47ab5042b65a908/253792-354452-original-1-.jpeg"
-    },
-    {
-        "nome":"Tortinhas doces",
-        "imagem":"https://static.vecteezy.com/ti/fotos-gratis/t2/39324347-ai-gerado-fruta-tortinhas-variedade-do-fruta-tortinhas-arranjado-dentro-uma-visualmente-atraente-padronizar-em-uma-branco-fundo-fundo-imagem-generativo-ai-foto.jpg"
-    },
-    {
-        "nome":"Trufa de chocolate",
-        "imagem":"https://pubimg.band.com.br/files/f5922c565218182fae76.png"
-    },
-    {
-        "nome":"Bombom de morango",
-        "imagem":"https://www.receiteria.com.br/wp-content/uploads/bombom-de-morango.jpg"
-    },
-    {
-        "nome":"Bombom de uva",
-        "imagem":"https://www.oetker.com.br/assets/recipes/assets/e7554e963c024ce4b0d6eb10f6bd85aa/1272x764/bombom-de-uva.jpg"
-    },
-    {
-        "nome":"Bombom de coco",
-        "imagem":"https://www.receitaafetiva.com.br/wp-content/uploads/2016/08/receita-de-bombom-prestigio-3.jpg"
-    },
-    {
-        "nome":"Trufa de maracujá",
-        "imagem":"https://minhasreceitinhas.com.br/wp-content/uploads/2022/04/Doces-do-Chefe-1200x806.jpg"
-    },
-    {
-        "nome":"Bombom crocante",
-        "imagem":"https://receitasgalo.com.br/images/receitas/427/galo-imagem-receitas-bombom-crocante-caseiro-share.jpg"
-    },
-    {
-        "nome":"Cone trufado",
-        "imagem":"https://chocolatesmontesanto.com/wp-content/uploads/2024/11/17.png"
-    },
-    {
-        "nome":"Bombom de pistache",
-        "imagem":"https://docepedia.com/_next/image?url=https%3A%2F%2Fadmin.docepedia.com%2Fsite%2Fuploads%2F2025%2F01%2F520x520-2.png&w=1080&q=75"
-    },
-    {
-        "nome":"Doces tradicionais",
-        "imagem":"https://i.pinimg.com/736x/96/e5/d6/96e5d633f907f977f6f05e9050fbdb03.jpg"
-    },
-    {
-        "nome":"Cupcakes temáticos",
-        "imagem":"https://www.conqualita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/u/cupcake_frutas.jpg"
-    },
-    {
-        "nome":"Pirulitos decorados",
-        "imagem":"https://www.conqualita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/i/pirulito_circo_3.jpg"
-    },
-    {
-        "nome":"Maçã do amor gourmet",
-        "imagem":"https://www.oetker.com.br/assets/recipes/assets/6f1c4075f2f549f68390afd8bdd4a9c2/1272x764/_mg_2234jpg.jpg"
-    },
-    {
-        "nome":"Cake pops",
-        "imagem":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/27/0/FNK_Cake-Pops_H1.jpg.rend.hgtvcom.1280.960.suffix/1582853049838.webp"
-    },
-    {
-        "nome":"Bento cake",
-        "imagem":"https://static.wixstatic.com/media/96dae6_20fe5180fdb747e4a8dfeb3b1b927f00~mv2.jpg/v1/fill/w_536,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/96dae6_20fe5180fdb747e4a8dfeb3b1b927f00~mv2.jpg"
-    },
-    {
-        "nome":"Mini sobremesas",
-        "imagem":"https://s2.glbimg.com/VrFam42yQNBcFP6tznUx5Hw89tk=/e.glbimg.com/og/ed/f/original/2020/03/20/mini_naked_cake_-_03.jpg"
-    },
-    {
-        "nome":"Kits festa personalizados",
-        "imagem":"https://i.pinimg.com/236x/da/45/c3/da45c3e414c9dcec3f06519f81ec43ec.jpg"
+        "imagem":"../assets/caixa.jpeg"
     }
 ]
