@@ -177,3 +177,10 @@ a:hover
     transition: 0.3s;
     flex-shrink: 0;
 }
+section {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    gap: 10px;
+    color: #777;
+}
