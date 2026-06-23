@@ -1,5 +1,5 @@
 body {
-    background-color: #fedcd9;
+    background-color: #fff;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -220,7 +220,7 @@ button {
   font-size: 22px;
   font-weight: bold;
   background-color:#f191ac;
-  padding: 5px 67px;
+  padding: 5px 150px;
   color: white;
 }
 
